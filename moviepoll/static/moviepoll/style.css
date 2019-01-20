@@ -1,0 +1,27 @@
+
+.header {
+font-family: 'Courier New', Courier, monospace;
+background-color: rgba(0, 0, 0, 1);
+text-align: center;
+color: whitesmoke;
+padding: 2%;
+border-block-end-style: solid;
+margin: 0%;
+}
+.column {
+font-family: 'Courier New', Courier, monospace;
+color: white;
+float: left;
+width: 33%;
+padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.nav.navbar-toggler{
+    background-color: white;
+}
